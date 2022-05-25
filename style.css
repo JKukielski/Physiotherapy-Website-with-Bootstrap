@@ -1,3 +1,31 @@
 .navbar-nav {
     margin-left: auto;
 }
+
+.carousel-item:first-child {
+    height: calc(100vh - 56px);
+    background-image: url(./assets/toa-heftiba-hBLf2nvp-Yc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  
+
+}
+.carousel-item:nth-child(2) {
+    height: calc(100vh - 56px);
+    background-image: url(./assets/mr-lee-f4RBYsY2hxA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item:last-child {
+    height: calc(100vh - 56px);
+    background-image: url(./assets/nino-liverani-EayqAlQiFeQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-image {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
